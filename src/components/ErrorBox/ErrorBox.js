@@ -8,15 +8,13 @@ const ErrorBox = ({ children }) => {
         <span className="fa fa-exclamation-triangle" />
         Error
       </h1>
-      <p>
-        {children}
-      </p>
+      <p>{children}</p>
     </div>
   );
 };
 
-ErrorBox.propTypes = { 
-  children: PropTypes.string
+ErrorBox.propTypes = {
+  children: PropTypes.string,
 };
 
 export default ErrorBox;
